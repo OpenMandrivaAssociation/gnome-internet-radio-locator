@@ -61,5 +61,3 @@ make %{?_smp_mflags}
 %{_datadir}/icons/hicolor/*/apps/*.png
 %{_datadir}/metainfo/*.xml
 %{_mandir}/man?/%{name}.?%{?ext_man}
-
-%files lang -f %{name}.lang
