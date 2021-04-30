@@ -10,6 +10,7 @@ Source0:        https://download.gnome.org/sources/%{name}/4.0/%{name}-%{version
 BuildRequires:  intltool
 BuildRequires:  itstool
 BuildRequires:  pkgconfig(champlain-gtk-0.12) >= 0.12.10
+BuildRequires:	pkgconfig(libgeoclue-2.0)
 BuildRequires:  pkgconfig(geocode-glib-1.0) >= 3.20
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
 BuildRequires:  pkgconfig(gobject-2.0) >= 2.38.0
