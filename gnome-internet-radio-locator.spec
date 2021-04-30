@@ -1,15 +1,14 @@
 Name:           gnome-internet-radio-locator
-Version:        3.0.3
-Release:        0
+Version:        4.0.1
+Release:        1
 Summary:        Live Internet radio broadcaster discovery program
 License:        GPL-3.0-or-later
 Group:          Productivity/Multimedia/Sound/Utilities
 URL:            https://wiki.gnome.org/Apps/InternetRadioLocator
-Source0:        https://download.gnome.org/sources/%{name}/3.0/%{name}-%{version}.tar.xz
+Source0:        https://download.gnome.org/sources/%{name}/4.0/%{name}-%{version}.tar.xz
 
 BuildRequires:  intltool
 BuildRequires:  itstool
-BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(champlain-gtk-0.12) >= 0.12.10
 BuildRequires:  pkgconfig(geocode-glib-1.0) >= 3.20
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
@@ -24,7 +23,6 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.0
 BuildRequires:  pkgconfig(libxml-2.0) >= 2.0
 BuildRequires:  pkgconfig(pangoft2) >= 0.28
 Provides:       girl
-Obsoletes:      girl
 
 %description
 GNOME Internet Radio Locator is a program that allows locating free
