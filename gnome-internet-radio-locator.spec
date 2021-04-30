@@ -55,11 +55,11 @@ make %{?_smp_mflags}
 %doc AUTHORS ChangeLog README THANKS NEWS
 %{_bindir}/%{name}
 %dir %{_datadir}/%{name}
-%{_datadir}/%{name}/gnome-internet-radio-locator-0.1.dtd
+#{_datadir}/%{name}/gnome-internet-radio-locator-0.1.dtd
 %{_datadir}/%{name}/gnome-internet-radio-locator.xml
 %{_datadir}/applications/%{name}.desktop
 %dir %{_datadir}/icons/hicolor/1024x1024
 %dir %{_datadir}/icons/hicolor/1024x1024/apps
 %{_datadir}/icons/hicolor/*/apps/*.png
 %{_datadir}/metainfo/*.xml
-%{_mandir}/man?/%{name}.?%{?ext_man}
+#{_mandir}/man?/%{name}.?%{?ext_man}
