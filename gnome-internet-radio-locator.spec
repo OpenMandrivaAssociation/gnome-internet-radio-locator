@@ -55,7 +55,7 @@ make %{?_smp_mflags}
 %doc AUTHORS ChangeLog README THANKS NEWS
 %{_bindir}/%{name}
 %dir %{_datadir}/%{name}
-%{_datadir}/gnome-internet-radio-locator/gnome-internet-radio-locator-4.0.dtd
+%{_datadir}/gnome-internet-radio-locator/gnome-internet-radio-locator-5.0.dtd
 %{_datadir}/%{name}/gnome-internet-radio-locator.xml
 %{_datadir}/applications/%{name}.desktop
 %dir %{_datadir}/icons/hicolor/1024x1024
