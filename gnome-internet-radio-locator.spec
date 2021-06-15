@@ -1,5 +1,5 @@
 Name:           gnome-internet-radio-locator
-Version:        5.0.3
+Version:        10.0.1
 Release:        1
 Summary:        Live Internet radio broadcaster discovery program
 License:        GPL-3.0-or-later
