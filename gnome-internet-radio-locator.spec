@@ -58,6 +58,8 @@ make %{?_smp_mflags}
 %{_datadir}/gnome-internet-radio-locator/gnome-internet-radio-locator-5.0.dtd
 %{_datadir}/%{name}/gnome-internet-radio-locator.xml
 %{_datadir}/applications/%{name}.desktop
+%{_datadir}/gnome-internet-radio-locator/doc/AAMOT.txt.xz
+%{_datadir}/gnome-internet-radio-locator/doc/Aamot-2020.txt.xz
 %dir %{_datadir}/icons/hicolor/1024x1024
 %dir %{_datadir}/icons/hicolor/1024x1024/apps
 %{_datadir}/icons/hicolor/*/apps/*.png
