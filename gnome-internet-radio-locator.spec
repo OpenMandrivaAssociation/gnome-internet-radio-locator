@@ -1,11 +1,11 @@
 Name:           gnome-internet-radio-locator
-Version:        10.0.1
+Version:        12.0.1
 Release:        1
 Summary:        Live Internet radio broadcaster discovery program
 License:        GPL-3.0-or-later
 Group:          Productivity/Multimedia/Sound/Utilities
 URL:            https://wiki.gnome.org/Apps/InternetRadioLocator
-Source0:        https://download.gnome.org/sources/%{name}/4.0/%{name}-%{version}.tar.xz
+Source0:        https://download.gnome.org/sources/%{name}/12/%{name}-%{version}.tar.xz
 
 BuildRequires:  intltool
 BuildRequires:  itstool
