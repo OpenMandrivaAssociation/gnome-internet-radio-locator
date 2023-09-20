@@ -1,5 +1,6 @@
 %global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
+%global optflags %{optflags} -Wno-int-conversion
 
 Name:           gnome-internet-radio-locator
 Version:        12.7.0
