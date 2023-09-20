@@ -58,8 +58,12 @@ make %{?_smp_mflags}
 %license COPYING
 %doc AUTHORS ChangeLog README THANKS NEWS
 %{_bindir}/%{name}
+%{_bindir}/org.gnome.Radio
 %dir %{_datadir}/%{name}
 %{_datadir}/gnome-internet-radio-locator/gnome-internet-radio-locator-5.0.dtd
+%{_datadir}/gnome-internet-radio-locator/org.gnome.Radio.dtd
+%{_datadir}/gnome-internet-radio-locator/org.gnome.Radio.xml
+%{_datadir}/gnome-internet-radio-locator/org.gnome.Radio.xsl
 %{_datadir}/%{name}/gnome-internet-radio-locator.xml
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/gnome-internet-radio-locator/doc/AAMOT.txt.xz
