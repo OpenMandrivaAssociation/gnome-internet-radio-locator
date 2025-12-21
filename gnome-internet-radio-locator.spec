@@ -11,6 +11,11 @@ Group:          Productivity/Multimedia/Sound/Utilities
 URL:            https://wiki.gnome.org/Apps/InternetRadioLocator
 Source0:        https://download.gnome.org/sources/%{name}/12/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  intltool
 BuildRequires:  itstool
 BuildRequires:  pkgconfig(champlain-gtk-0.12) >= 0.12.10
